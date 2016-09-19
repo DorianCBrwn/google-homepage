@@ -1,0 +1,11 @@
+.navBar{
+  padding: 3px;
+  align-items: center;
+
+}
+ul{
+  text-decoration: none;
+  background-color: #000000;
+}
+body{background-color: black;
+}
