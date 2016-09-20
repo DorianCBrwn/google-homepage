@@ -1,11 +1,7 @@
-.navBar{
-  padding: 3px;
-  align-items: center;
+
+body {background-color:#30bd25 ;
 
 }
-ul{
-  text-decoration: none;
-  background-color: #000000;
-}
-body{background-color: black;
+ul {
+  background-color: #d6a718;
 }
