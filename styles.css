@@ -1,28 +1,48 @@
-body {
-    background-color: #ffffff;
+.navBar{
+  background-color: #000000;
 }
 
-ul {
-    padding: 2px;
-}
-
-li {
-    list-style: none;
-    display: inline-block;
+.navBar ul {
+    margin: 0;
+    padding: 0;
+    border: none;
     float: right;
-    padding-right: 20px;
-    text-decoration: none;
-    color: #00000;
-    text-align: left;
-    position: relative;
-    font-family: ariel, sans-serif;
 }
 
-a {
+.navBar li {
+    list-style: none;
+    padding-right: 10px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.navBar li a {
     text-decoration: none;
     color: black;
     text-align: center;
     font-size: small;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+.icon-background {
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 1.2em !important;
+}
+
+.fa-bell{
+  font-size: .5em !important;
+  text-align: center;
+}
+
+.grid{
+  color:rgba(0, 0, 0, 0.55);
+}
+
+body {
+    background-color: #ffffff;
+    display:block;
 }
 
 .logo {
@@ -31,6 +51,5 @@ a {
     padding-top: 89px;
     display: block;
     float: center;
-    position: -ms-align-self: baseline;
-    align-self: baseline;
+    position: relative;
 }
