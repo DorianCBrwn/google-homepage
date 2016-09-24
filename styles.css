@@ -1,5 +1,8 @@
-.navBar{
-  background-color: #000000;
+.navBar {
+    background-color: #ffffff;
+    display: block;
+    margin-bottom: 10px;
+    height: 60px;
 }
 
 .navBar ul {
@@ -14,16 +17,12 @@
     padding-right: 10px;
     text-decoration: none;
     display: inline-block;
-
+    font-size: small;
 }
 
 .navBar li a {
     text-decoration: none;
     color: black;
-    text-align: center;
-    font-size: small;
-    line-height: 24px;
-    vertical-align: middle;
 }
 
 .icon-background {
@@ -31,25 +30,46 @@
     font-size: 1.2em !important;
 }
 
-.fa-bell{
-  font-size: .5em !important;
-  text-align: center;
+.bell-icon {
+    font-size: .5em !important;
+    color: #ffffff;
+    bottom: .1em !important;
 }
 
-.grid{
-  color:rgba(0, 0, 0, 0.55);
+.icon-Grid {
+    color: rgba(0, 0, 0, 0.55);
 }
 
-body {
-    background-color: #ffffff;
-    display:block;
+body{
+  min-height: 100%;
 }
 
 .logo {
-    height: 233px;
-    width: 273px;
-    padding-top: 89px;
+    max-height: 200px;
+    text-align: center;
+}
+
+.logo_image {
+    height: auto;
+    width: 35%;
+}
+
+.searchArea {
     display: block;
-    float: center;
-    position: relative;
+    text-align: center;
+}
+
+.searchBar {
+    height: auto;
+    width: 40%;
+    display:block;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+.google_Button{
+  display: block;
+  margin: 5px,5px ,auto;
 }
