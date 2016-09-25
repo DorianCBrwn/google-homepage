@@ -58,18 +58,42 @@ body{
     display: block;
     text-align: center;
 }
+.searchBar{
+  min-width: 120px;
+  width: 42%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 11px;
+  margin-top: 10px;
+  border-color:#b0b0b0;
+  border-width: 1px;
+  border-style: solid;
 
-.searchBar {
-    height: auto;
-    width: 40%;
-    display:block;
-    margin-top: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 10px;
 }
 
-.google_Button{
-  display: block;
-  margin: 5px,5px ,auto;
+.search {
+    height: 26px;
+    width: 90%;
+    display:block;
+    border: none;
+
+}
+
+.search:hover{
+  border-color: rgba(#1d1d19, 0.66);
+  border-width: thin;
+}
+
+.google_Button, .lucky_Button{
+  display: inline-block;
+  margin: 10px,5px ,auto ,auto;
+  padding: 0, 10px;
+  min-width: 54px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  color: #757575;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+
 }
