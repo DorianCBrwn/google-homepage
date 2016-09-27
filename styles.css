@@ -15,7 +15,6 @@
 .navBar li {
     list-style: none;
     padding-right: 10px;
-    text-decoration: none;
     display: inline-block;
     font-size: small;
 }
@@ -42,6 +41,10 @@
 
 body{
   min-height: 100%;
+  min-width: 550px;
+}
+
+.mainContent{
 }
 
 .logo {
@@ -54,40 +57,68 @@ body{
     width: 35%;
 }
 
-.searchArea {
+.searchBar {
     display: block;
     text-align: center;
-}
-.searchBar{
-  min-width: 120px;
-  width: 42%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 11px;
-  margin-top: 10px;
-  border-color:#b0b0b0;
-  border-width: 1px;
-  border-style: solid;
+    min-width: 230px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: 25px;
+    position: relative;
+    box-shadow: 0px 0px 1px 1px #d7d7d7;
 
 }
 
 .search {
-    height: 26px;
-    width: 90%;
-    display:block;
-    border: none;
+  height: 25px;
+  display: inline-block;
+  width: 90%;
+  float: left;
+  min-width:206px;
+  padding: 0px;
+  border-style: none;
+}
+
+.searchBar:hover{
+  box-shadow: 0px 0px 6px 1px #dfdfdf;
+}
+
+.vSSpan{
+  width: 10%;
+  height: 25px;
+  display: inline-block;
+
+  border: none;
+  float: right;
+  position: relative;
+  overflow: hidden;
+  text-align: right;
 
 }
 
-.search:hover{
-  border-color: rgba(#1d1d19, 0.66);
-  border-width: thin;
+#voiceSearch{
+height: 25px;
+width: 25px;
+
+}
+
+.button_Area{
+  width: 45%;
+  min-width: 230px;
+  max-height: 25px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: blue;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .google_Button, .lucky_Button{
-  display: inline-block;
-  margin: 10px,5px ,auto ,auto;
-  padding: 0, 10px;
+  display:inline-block;
+  margin: 12px, auto;
+  padding: 10px, 10px;
   min-width: 54px;
   background-color: #f2f2f2;
   border: 1px solid #f2f2f2;
@@ -95,5 +126,42 @@ body{
   font-family: Arial, sans-serif;
   font-size: 13px;
   font-weight: bold;
+  top: 10px;
+
+}
+
+.footer {
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    display: inline-block;
+    background-color: #f2f2f2;
+    border-top: 1px solid e4e4e4;
+}
+
+.footer ul{
+  text-align: left;
+}
+
+.footer ul a{
+  text-decoration: none;
+  color: #757575;
+}
+
+.left_Buttons li{
+  list-style: none;
+  padding-right: 10px;
+  text-decoration: none;
+  display: inline-block;
+  float: left;
+  font-size: small;
+}
+.right_Buttons li{
+  list-style: none;
+  padding-right: 10px;
+  text-decoration: none;
+  display: inline-block;
+  float: right;
+  font-size: small;
 
 }
