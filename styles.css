@@ -13,7 +13,7 @@ a:visited {
 .navBar {
     background-color: #ffffff;
     display: block;
-    margin: 10px 0;
+    margin-top: 10px;
     height: 60px;
 }
 
@@ -35,6 +35,11 @@ a:visited {
     text-decoration: none;
     color: black;
 }
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
 
 .icon-background {
     color: rgba(0, 0, 0, 0.55);
@@ -82,13 +87,17 @@ overflow:hidden;
 background-color: blue;
 position: relative;
 top:10px;
+
 }
 
 .user_icon{
   display: inline-block;
    margin: 0 auto;
-   height: 100%;
-   width: auto;
+   height: 35px;
+   width: 35px;
+   right:2px;
+   bottom: 2px;
+   position: relative;
 }
 
 body {
@@ -96,24 +105,28 @@ body {
     min-width: 550px;
 }
 
-.mainContent {}
+.mainContent{
+  position: relative;
+  top: 50%;
+  transform: perspective(1px) translateY(-100%);
+}
 
 .logo {
     text-align: center;
 }
 
 .logo_image {
-    width: 400px;
-    height: 184px;
+    width: 272px;
+    height: 92px;
     position: relative;
 }
 
 .searchBar {
     display: block;
     text-align: center;
-    min-width: 250px;
+    min-width: 400px;
     max-width: 484px;
-    width: 70%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -122,7 +135,7 @@ body {
     box-shadow: 0px 0px 1px 1px #d7d7d7;
 }
 .searchBar:focus{
-  box-shadow: 5px 5px 8px blue;
+  border: 1px #2790f1;
 }
 
 .search {
